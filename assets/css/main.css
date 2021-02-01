@@ -1,0 +1,25 @@
+body{
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+section{
+    padding: 5em;
+}
+h1{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.4em;
+    line-height: 1.8em;
+}
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}

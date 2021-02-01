@@ -5,6 +5,7 @@
         DaVinci Restaurant
         
       </h1>
+      <p>Euer Hunger ist unsere Mission. Deshalb geben wir täglich unser bestes, um Ihnen schmackhaftes Essen zu servieren</p>
       <div class="middle">
         <a
           href="https://nuxtjs.org/"
@@ -25,7 +26,8 @@
       </div>
       
     </div>
-    <img src="~assets/Bilder/Essen.jpg" alt="Download" class="image" width="1920" height="1080">
+    <img src="~assets/Bilder/Essen.jpg" alt="Download" class="image" width= "700" height="500">
+    <img src="~assets/Bilder/Download.jpg" alt="Download2" class="image" width= "700" height="500">
   </div>
 </template>
 
@@ -37,7 +39,8 @@ export default {
 </script>
 
 <style>
-container{
-  background: coral;
+index{
+  justify-self: center;
 }
+
 </style>

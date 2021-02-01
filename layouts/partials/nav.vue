@@ -1,11 +1,12 @@
 <template>
     <header>
+
         <nuxt-link to="/" class="logo"></nuxt-link>
         <nav>
         <ul>
             <li><nuxt-link to="/">Home</nuxt-link></li>
              <li><nuxt-link to="Kontakt">Kontakt</nuxt-link></li>
-              <li><nuxt-link to="Historie">Historie</nuxt-link></li>
+            <li><nuxt-link to="Historie">Historie</nuxt-link></li>
         </ul>
     </nav>
     </header>
@@ -14,7 +15,8 @@
 
 <script>
 export default {
-    
+    name: "nav",
+   
 }
 </script>
 

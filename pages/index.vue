@@ -3,7 +3,6 @@
     <div>
       <h1 class="title">
         DaVinci Restaurant
-        
       </h1>
       <p>Euer Hunger ist unsere Mission. Deshalb geben wir täglich unser bestes, um Ihnen schmackhaftes Essen zu servieren</p>
       <div class="middle">
@@ -12,19 +11,15 @@
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
-        >
-          
+        >         
         </a>
-        <a
-         
+        <a         
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
-        >
-          
+        >          
         </a>
-      </div>
-      
+      </div>      
     </div>
     <img src="~assets/Bilder/Essen.jpg" alt="Download" class="image" width= "700" height="500">
     <img src="~assets/Bilder/Download.jpg" alt="Download2" class="image" width= "700" height="500">

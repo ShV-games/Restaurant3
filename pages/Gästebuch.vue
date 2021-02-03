@@ -5,7 +5,7 @@
     <input type="text" name="Name" id="Name" v-model="Name" placeholder="Ihr Name">
     <input type="text" name="Kommentar" id="Kommentar" v-model="comment" placeholder="Kommentar">
     <input type="submit" @click="onClick">
-    <p>Kommentar von {{Name}}: {{comment}}</p>
+    <p v-for="Eintrag in arr">Kommentar von {{Eintrag.gesName}}: {{Eintrag.gesComment}}</p>
     
   </section>
   
@@ -16,16 +16,23 @@
 export default{
   methods:{
     onClick(){
-     this.comment
-     this.Name
+     this.gesComment=this.comment;
+     this.gesName= this.Name;
 
+
+
+    this.arr.push ({gesComment: this.gesComment, gesName: this.gesName});
+    console.log(this.arr);
     }
 
   },
   data(){
     return{
       comment: "",
-      Name: ""
+      Name: "",
+      gesName:"",
+      gesComment:"",
+      arr: []
     }
   }
 }
